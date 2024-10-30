@@ -94,8 +94,6 @@ header {
   flex-direction: row;
   display: flex;
 }
-.hero__description {
-}
 .main-title {
   color: white;
   font-size: 64px;
@@ -104,10 +102,8 @@ header {
   letter-spacing: -0.02em;
   text-align: left;
 }
-.try {
-}
 .hero__image {
-  margin: 100px 0px 100px 0px;
+  margin: 100px 0px 100px 20px;
   height: 456px;
   max-width: 685px;
 }
@@ -119,8 +115,6 @@ header {
   line-height: 30px;
   letter-spacing: -0.02em;
   text-align: left;
-}
-.project-management {
 }
 .project-management__content {
   padding: 140px 0 100px 0;
@@ -158,5 +152,76 @@ header {
   padding: 20px 40px;
   background-color: #4f9cf9;
 }
-.start-button {
+/* work together */
+.work__content {
+  padding: 100px 0 140px 0;
+  gap: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.work__container {
+}
+.work__title {
+  color: #212529;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87.14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.work__description {
+  padding: 24px 0 60px 0;
+  color: #212529;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+/* Extension */
+.extension {
+  background-color: #043873;
+}
+.extension__content {
+  gap: 98px;
+  padding: 140px 0 100px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.extension__title {
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87.14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.extension__description {
+  padding: 24px 0 60px 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.extension__button {
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #4f9cf9;
+}
+.extension__image {
+  max-width: "686px";
+  height: "479px";
 }
