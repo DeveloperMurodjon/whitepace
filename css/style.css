@@ -124,6 +124,9 @@ header {
   justify-content: space-between;
 }
 .project-management__title {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url(../images/Element.png);
   color: #212529;
   font-size: 72px;
   font-weight: 700;
@@ -131,6 +134,7 @@ header {
   letter-spacing: -0.02em;
   text-align: left;
 }
+
 .project-management__description {
   padding: 24px 0 60px 0;
   color: #212529;
@@ -162,6 +166,9 @@ header {
   justify-content: space-between;
 }
 .work__title {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url(../images/Element.png);
   color: #212529;
   font-size: 72px;
   font-weight: 700;
@@ -179,7 +186,7 @@ header {
   text-align: left;
 }
 /* Extension */
-section.section__extension {
+.section__extension {
   background-color: #043873;
 }
 .extension__content {
@@ -199,7 +206,10 @@ section.section__extension {
   text-align: left;
 }
 .extension__description {
-  padding: 24px 0 60px 0;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url(../images/Element.png);
+  padding: 30px 0 60px 0;
   color: white;
   font-size: 18px;
   font-weight: 400;
@@ -233,6 +243,9 @@ section.section__extension {
   justify-content: space-between;
 }
 .needs__title {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url(../images/Element.png);
   color: #212529;
   font-size: 72px;
   font-weight: 700;
