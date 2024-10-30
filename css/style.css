@@ -1,3 +1,4 @@
+@import url(./fonts.css);
 *,
 *::before,
 *::after {
@@ -21,4 +22,130 @@ a {
 image {
   object-fit: cover;
   display: flex;
+}
+body {
+  font-family: "Inter";
+}
+.container {
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1376px;
+}
+.navigation {
+  justify-content: space-between;
+  padding: 2.9rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url(../images/hero-bg-image.png);
+  background-color: #043873;
+}
+.menu {
+  gap: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.item a {
+  gap: 10px;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  line-height: 2.3rem;
+  font-size: 1.8rem;
+  font-family: "DM Sans";
+  font-weight: 500;
+  color: white;
+}
+.entry {
+  gap: 2.4rem;
+  flex-direction: row;
+  display: flex;
+}
+.login {
+  letter-spacing: -2%;
+  line-height: 2.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 18.5px 40px;
+  color: #043873;
+  background-color: #ffe492;
+}
+.try {
+  letter-spacing: -2%;
+  line-height: 2.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 18.5px 40px;
+  color: #ffffff;
+  background-color: #4f9cf9;
+}
+.hero {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+.hero__description {
+}
+.main-title {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77.45px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.try {
+}
+.hero__image {
+  margin: 100px 0px 100px 0px;
+  height: 456px;
+  max-width: 685px;
+}
+.hero__description__text {
+  padding: 24px 0 60px 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.project-management {
+}
+.project-management__content {
+  padding: 140px 0 100px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-management__title {
+  color: #212529;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87.14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.project-management__description {
+  color: #212529;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.project-management__button {
+}
+.start-button {
 }
