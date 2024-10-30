@@ -161,8 +161,6 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.work__container {
-}
 .work__title {
   color: #212529;
   font-size: 72px;
@@ -181,7 +179,7 @@ header {
   text-align: left;
 }
 /* Extension */
-.extension {
+section.section__extension {
   background-color: #043873;
 }
 .extension__content {
@@ -224,4 +222,30 @@ header {
 .extension__image {
   max-width: "686px";
   height: "479px";
+}
+/* NEEDS */
+.needs__content {
+  padding: 100px 0 140px 0;
+  gap: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.needs__title {
+  color: #212529;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87.14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.needs__description {
+  padding: 24px 0 60px 0;
+  color: #212529;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
